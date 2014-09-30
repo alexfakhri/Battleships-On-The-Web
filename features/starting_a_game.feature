@@ -6,4 +6,6 @@ Feature: Starting the game
   Scenario: Registering
     Given I am on the homepage
     When I follow "New Game"
-    Then I should see "What's your name?"
+    And I should see "What's your name?"
+    And I should be able to enter my name
+
