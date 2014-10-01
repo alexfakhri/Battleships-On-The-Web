@@ -7,8 +7,12 @@ class BattleShips < Sinatra::Base
     erb :index
   end
 
-  get '/newgame' do
-  	erb :newgame
+  get '/new_game' do
+  	erb :new_game
+  end
+
+  get '/start_game' do
+  	erb :start_game
   end
 
 
